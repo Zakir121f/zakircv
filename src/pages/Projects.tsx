@@ -37,6 +37,29 @@ export default function Projects() {
         </ul>
       </div>
 
+      <div className="card">
+  <h3>Productbeheer App (eigen project)</h3>
+  <p>
+    Ik heb een simpele applicatie ontwikkeld voor mijn broer, zodat hij zijn
+    producten binnen zijn groothandel beter kan beheren.
+  </p>
+
+  <p><b>Wat ik heb gebouwd:</b></p>
+  <ul>
+    <li>Overzicht van producten</li>
+    <li>Inkoopprijs en verkoopprijs bijhouden</li>
+    <li>Nieuwe producten toevoegen</li>
+    <li>Inzicht in kosten en winst</li>
+  </ul>
+
+  <p><b>Mijn rol:</b></p>
+  <ul>
+    <li>Zelf de applicatie ontworpen en gebouwd</li>
+    <li>Logica opgezet voor productbeheer</li>
+    <li>Gebruiksvriendelijke interface gemaakt</li>
+  </ul>
+</div>
+
       {/* Eigen project */}
       <div className="card">
         <h3>AI Fitness App (eigen project)</h3>

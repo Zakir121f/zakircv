@@ -72,3 +72,11 @@ nav {
 .contact-card:hover {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
 }
+a:hover {
+  opacity: 0.7;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  transition: 0.2s;
+}
