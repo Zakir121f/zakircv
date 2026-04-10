@@ -1,19 +1,13 @@
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Skills from "../components/Skills";
-import Projects from "../components/Projects";
-import Experience from "../components/Experience";
-import Contact from "../components/Contact";
-
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Skills/>
-      <Projects/>
-      <Experience/>
-      <Contact/>
-    </>
+    <div className="container" style={{ textAlign: "center", paddingTop: "100px" }}>
+      <h1>Zakir Rahimi</h1>
+      <h2>Software Engineering Student</h2>
+
+      <p>
+        Welkom op mijn portfolio. Via de navigatie kun je meer bekijken over mijn
+        skills, projecten en werkervaring.
+      </p>
+    </div>
   );
 }

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
   return (
     <nav
@@ -5,18 +7,16 @@ export default function Navbar() {
         display: "flex",
         justifyContent: "space-between",
         padding: "20px",
-        background: "#020617",
-        position: "sticky",
-        top: 0,
       }}
     >
       <h2>Zakir Rahimi</h2>
 
       <div style={{ display: "flex", gap: "20px" }}>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projecten</a>
-        <a href="#experience">Ervaring</a>
-        <a href="#contact">Contact</a>
+        <Link to="/">Home</Link>
+        <Link to="/skills">Skills</Link>
+        <Link to="/projects">Projecten</Link>
+        <Link to="/experience">Ervaring</Link>
+        <Link to="/contact">Contact</Link>
       </div>
     </nav>
   );
